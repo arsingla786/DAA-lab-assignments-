@@ -1,3 +1,4 @@
+//Implement Quick Sort for arr[n] = { 4, 2, 6, 9, 2 }
 #include<iostream>
 #include<vector>
 
@@ -26,11 +27,11 @@ void quicksort(vector<int>& arr,int p,int r){
 }
 
 int main(){
-    vector<int> arr = {4,5,7,0,8,2,1};
+    vector<int> arr = { 4, 2, 6, 9, 2 };
     quicksort(arr,0,arr.size()-1);
     for(auto it : arr){
         cout<<it<<" ";
     }
 }
 
-
+//output - > 2 2 4 6 9

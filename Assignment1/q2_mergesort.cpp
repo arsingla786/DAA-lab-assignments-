@@ -3,6 +3,13 @@
 It divides the array into halves, 
 recursively sorts each half, 
 and then merges them back together in sorted order.*/
+
+/*Implement Merge sort for the given array int 
+arr[] = {12, 11, 13, 5, 6, 7}. After implementing
+Merge Sort, apply the same implementation to sort another array: 
+int arr2[] = {38, 27, 43,
+3, 9, 82, 10}.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -51,7 +58,7 @@ void mergeSort(vector<int>& arr, int low, int high){
 
 int main() 
 {
-    vector<int> arr = {3,1,2,4,1,5,2,6,4};
+    vector<int> arr =  {12, 11, 13, 5, 6, 7};
         int low = 0;
         int high = arr.size()-1;
         
@@ -61,10 +68,9 @@ int main()
     }
 }
 
-
-
-
-
+//output1 -> 5 6 7 11 12 13 
+//output2 -> 3 9 10 27 38 43 82 
 
 //TC - O(nlogN)
 //SC - O(n)
+
