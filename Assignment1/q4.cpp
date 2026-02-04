@@ -1,6 +1,6 @@
 /*You are given a 1D array that may contain both positive 
 and negative integers,and find
-the sum of a contiguous subarray of numbers which has the
+the sum of a contiguous subarray of numbers which has the 
 largest sum. For example, if
 the given array is {-2, -5, 6, -2, -3, 1, 5, -6}, then the 
 maximum subarray sum is 7.*/
